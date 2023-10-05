@@ -21,3 +21,13 @@ r"C:\Users\...\Test_dataset.csv"
 
 The second parameter that the user needs to set is the z value located in line 165. The default value is 74 km
 but if other value is needed it can be set. 
+
+Needed libraries for the code to work:
+  pandas,
+  os,
+  csv,
+  numpy,
+  xgboost,
+  glob.
+
+Python version 3.8.6
