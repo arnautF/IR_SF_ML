@@ -31,3 +31,19 @@ Needed libraries for the code to work:
   glob.
 
 Python version 3.8.6
+
+More detailed instructions on how to install Python and run the code:
+
+1) Download Python from https://www.python.org/downloads/ (preferably version 3.8.6, but most probably newer versions will work)
+2) When installing enable the option of adding Python to PATH
+3) When the installation is complete, open the Command Prompt 
+4) In the command prompr type pip install pandas (do that for all the other needed libraries for the code to work)
+5) When all the libraries are installed search for IDLE on the search option on Windows
+6) Open IDLE and open the script which is downloaded and placed on the desktop
+7) When the script is open, adjust the parameters that were mentioned (path to testing file and z value if some other z value other than 74 km is needed)
+8) Run the script and if everything is done successfully, the output of the script should be:
+     data_statistical_features.csv- file where the statistical features are calculated
+     data_flag_NaN.csv- file where empty cells are marked as NaN
+     data_drop_NaN.csv- file where all rows containing at least one NaN values are dropped
+     output_XGB.csv- output file with predictions. The predictions can be found in columns named Predicted_Beta and Predicted_Reflection_height. Aside from the features and target variables time delay i.e., slugishness and Ne are also presented in the output .csv file
+
