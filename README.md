@@ -6,7 +6,7 @@ The code by default looks for a .csv file named Train_dataset.csv in the folder 
 The train dataset is comprised of X-ray irradiance data obtained from 6/9/17 through 10/9/17. In the research 
 paper the train dataset was 6/9/17- 9/10/17 and the test dataset was 10/9/17.
 
-The test file included with the codecontains Ix values from 3/11/2008 and is intended just for code testing purposes.
+The test file included with the code contains Ix values from 3/11/2008 and is intended for code testing purposes.
 
 In order to make the code work, download the code and the datasets and put them, for example, on the Desktop
 Two additional parameters are needed to set to make the code work. 
