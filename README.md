@@ -37,7 +37,11 @@ More detailed instructions on how to install Python and run the code:
 1) Download Python from https://www.python.org/downloads/ (preferably version 3.8.6, but most probably newer versions will work)
 2) When installing enable the option of adding Python to PATH
 3) When the installation is complete, open the Command Prompt 
-4) In the command prompr type pip install pandas (do that for all the other needed libraries for the code to work)
+4) In the command prompt install the follwoing libraries as:
+      pip install pandas
+      pip install numpy
+      pip install xgboost
+      pip install scikit-learn
 5) When all the libraries are installed search for IDLE on the search option on Windows
 6) Open IDLE and open the script which is downloaded and placed on the desktop
 7) When the script is open, adjust the parameters that were mentioned (path to testing file and z value if some other z value other than 74 km is needed)
