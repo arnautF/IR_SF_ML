@@ -1,2 +1,0 @@
-the train csv file contains Ix values from 6/9/17- 10/9/17 (in the research paper the train was 6/9/17- 9/9/17 and testing was 10/9/17)
-the test file contains Ix values from 3/11/2008 and is intended just for code testing purposes
